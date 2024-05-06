@@ -1,11 +1,23 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AdminNavbar from "./Components/AdminComponent/AdminDashboard/AdminNavbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./Components/AdminComponent/AdminDashboard/Home";
+import Course from "./Components/AdminComponent/AdminDashboard/Course";
 
-import UserDash from './UserDash';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <UserDash />
+      
+        <AdminNavbar />
+        <Routes>          
+          <Route path="/" element={<Home/>}/>
+          <Route path="/course" element={<><Course/></>}/>
+        </Routes>
+      
     </div>
+    </BrowserRouter>
   );
 }
 

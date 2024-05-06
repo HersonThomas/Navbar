@@ -1,0 +1,35 @@
+.newlearner-card {
+    display: flex;
+    align-items: center;
+    /* background-color: #f8f9fa;
+    border-radius: 8px; */
+    /* padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.newlearner-info h3 {
+
+    color: #23257c;
+}
+
+.newlearner-info p {
+    color: #23257c;
+    margin-left: 10px;
+}
+
+.newlearner-icon {
+    font-size: 30px;
+    color: #23257c;
+    /* or any other color you prefer */
+    margin-right: 5px;
+}
+
+.newlearner-info {
+    flex-grow: 1;
+}
+
+.newlearner-count {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

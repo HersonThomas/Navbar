@@ -1,0 +1,92 @@
+/* .home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 17vw;
+    height: 7vh;
+    margin: 0 3px;
+
+}
+
+@media (max-width:768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: calc(100% - 20px);
+        margin: 5px 0;
+
+    }
+} */
+
+
+/* MyCalendar.css */
+.calendar-container {
+    max-width: 300px;
+    flex: 1;
+    margin: 0 10px;
+    /* padding: 20px; */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .calendar-container {
+      max-width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  }
+  
+  /* AdminDashboard.css */
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  #home-component {
+    margin-left: 12vw;
+    margin-top: 25vh;
+  }
+  
+  .card {
+    width: calc(20% - 3px); /* 25% width for each card with 20px margin */
+    margin: 10px;
+    position: static !important;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .userchart{
+    width: 50vw;
+    height:50vh;
+  }
+  .coursechart{
+    width: 50vw;
+    height:100vh;
+  }
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .card {
+        width: calc(100% - 20px);
+        margin: 5px 0;
+
+    } */
+    .card {
+      width: calc(50% - 20px); /* 50% width for each card with 20px margin */
+    }
+  }
+  
